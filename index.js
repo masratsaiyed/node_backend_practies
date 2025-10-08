@@ -11,6 +11,6 @@ app.get('/twitter',(req,res)=>
 {
     res.send("Twitter is ready")
 })
-app.listen(express.evn, () => {
+app.listen(express.evn.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
